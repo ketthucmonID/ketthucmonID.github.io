@@ -40,9 +40,6 @@
 	text-decoration: underline;
 	color: red;
 }
-.menu3{
-	color: red
-}
 .menu4:hover{
 	text-decoration: underline;
 	color: red;
@@ -380,7 +377,7 @@ background: linear-gradient(303deg, rgba(1,199,47,1) 0%, rgba(0,241,255,1) 100%,
 .banner8 h2{
 	text-align: center;
 	font-size: 4vw;
-	color: white;
+	color: #2EED10;
 	padding-top: 100px;	
 }
 .bn8-grid{
