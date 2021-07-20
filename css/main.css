@@ -1,0 +1,492 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Reset CSS */
+*{
+	padding: 0;
+	margin: 0;
+}
+.logo{
+	float: left;
+	width: 28%;
+	padding-top: 2%;
+	padding-left: 2%;
+	
+}
+.menu{
+	float: right;
+	width: 70%;
+	color:aqua;
+	font-size: 2vw;		
+}
+.menu ul{
+	list-style-type: none;
+	padding-top: 50px;
+}
+.menu ul li{
+	display: inline;
+	padding: 47px;
+	
+}
+.menu1:hover{
+	text-decoration: underline;
+	color: red;
+}
+.menu2:hover{
+	text-decoration: underline;
+	color: red;
+}
+.menu3:hover{
+	text-decoration: underline;
+	color: red;
+}
+.menu3{
+	color: red
+}
+.menu4:hover{
+	text-decoration: underline;
+	color: red;
+}
+.banner1{
+	background-image: url("../hình ảnh/ronald-gijezen-7h06P9UKhYY-unsplash.jpg");
+	height: 1000px;
+	background-size: cover;
+	color:antiquewhite;
+}
+.banner1 h1{
+	text-align: right;
+	padding-top: 10%;
+	padding-right: 35%;
+	font-size: 3vw;
+}
+.banner1 h5{
+	text-align: left;
+	width: 500px;
+	padding-top: 2%;
+	padding-left: 65%;
+	font-size: 1.3vw;
+	line-height: 40px
+}
+.banner2{
+	height: 300px;
+}
+.grid-banner2{
+	padding: 50px 200px 0px 200px;
+	
+}
+.column{
+	border: 1px solid #FF0004;
+	text-align: center;
+background: rgb(1,199,47);
+background: linear-gradient(303deg, rgba(1,199,47,1) 0%, rgba(0,241,255,1) 100%, rgba(0,212,255,1) 100%);
+	height: 350px;
+	padding: 50px 100px 0 100px;
+	line-height: 2vw;
+	font-size: 1.3vw;
+		
+}
+.column1-nd{
+	float: left;
+	width: 45%;
+	height: 300px;
+	padding-right: 30px;
+}
+.column1-nd h1{
+	padding-bottom: 10px;
+	line-height: 3vw;
+	margin-top: -20px;
+}
+.column2-nd{
+	float: right;
+	width: 45%;		
+	padding-left: 30px;
+}
+.column2-nd h1{
+	padding-bottom: 10px;
+	margin-top: -10px;
+}
+.button1{
+	font-size: 20px;
+	width: 200px;
+	padding: 10px 10px 10px 10px;
+	margin-top: 75px;
+}
+.button1:hover{
+	color: red;
+	text-decoration:underline;
+}
+.button2{
+	font-size: 20px;
+	width: 200px;
+	padding: 10px 10px 10px 10px;
+	margin-top: 85px;
+}
+.button2:hover{
+	color: red;
+	text-decoration:underline;
+}
+.banner3{
+	margin: 200px;
+	text-align: center;
+	font-size: 1.3vw
+}
+.tab {
+	margin-top: 30px;
+  	float: left;
+  	border: 1px solid #ccc;
+  	background-color: #f1f1f1;
+  	width: 20%;
+  	height: 200px;
+}
+
+.tab button {
+  	display: block;
+  	background-color:lightblue;
+  	color:black;
+  	padding: 22px 16px;
+  	width: 100%;
+  	border: 1px solid #19E1EB;
+  	outline: none;
+  	text-align: left;
+  	cursor: pointer;
+  	font-size: 1.5vw;
+}
+.tab button:hover {
+  background-color: rgb(1,199,47);
+background: linear-gradient(303deg, rgba(1,199,47,1) 0%, rgba(0,241,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+.tabcontent {
+	margin-top: 30px;
+  	float: left;
+  	padding: 0px 12px;
+ 	border: 1px solid #ccc;
+  	width: 77%;
+ 	height: 12.3vw;
+  	display: none;
+	font-size: 1.5vw;
+	line-height: 35px;
+	background-color: rgb(1,199,47);
+background: linear-gradient(303deg, rgba(1,199,47,1) 0%, rgba(0,241,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+.tabcontent h2{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.banner4{
+	margin-top: 300px;
+	background-color:#004237;
+	height: 500px;
+	text-align: left;
+	padding-left: 5%;
+}
+.cot1{
+	float: left;
+	width: 50%;
+	color: antiquewhite
+	
+}
+.cot2{
+	width: 50%;
+	float: right;
+	background-image:url("../hình ảnh/sergei-akulich--heLWtuAN3c-unsplash.jpg");
+	height: 500px;
+	background-size: cover;
+}
+form{
+	color: antiquewhite;
+	font-size: 1vw;
+	padding-top: 10px;
+}
+.hovaten{
+	margin-bottom: 20px;
+	padding: 10px;
+	line-height: 10px;
+	width: 40%;
+	border:none;
+	border-bottom: 1px solid #F31317;
+}
+.email{
+	margin-bottom: 20px;
+	padding: 10px;
+	line-height: 10px;
+	width: 40%;
+}
+.tinnhan{
+	padding: 50px;
+	line-height: 10px;
+	width: 40%;
+	margin-bottom: 20px;
+}
+.gui{
+	margin: 10px 0 0 0;
+	width: 40%;
+	font-size: 1.3vw;
+}
+.gui:hover{
+	color: red;
+	background-color:  rgb(1,199,47);
+background: linear-gradient(303deg, rgba(1,199,47,1) 0%, rgba(0,241,255,1) 100%, rgba(0,212,255,1) 100%);;
+}
+.gioitinh{
+	padding-top: 0px;
+	font-size: 1.3vw;
+	line-height: 2vw;
+}
+.cot1 h1{
+	color: antiquewhite;
+	padding-top: 1vw;
+	text-align: center;
+}
+.banner5{
+	height: 700px;
+	position: relative;
+}
+.bn5-row1 h3{
+	text-align: center;
+	padding: 50px 400px 0px 400px;	
+}
+.bn5-row2{
+	text-align: center;
+	padding: 10px 200px 0px 200px;
+	height: 100px;
+}
+.cl-1{
+	background: rgb(1,199,47);
+background: linear-gradient(303deg, rgba(1,199,47,1) 0%, rgba(0,241,255,1) 100%, rgba(0,212,255,1) 100%);
+	float:left;
+	width: 46%;
+	height: 300px;
+	border-right: 1px solid;
+	padding: 150px 20px 0px 20px;
+	font-size: 2vw;
+}
+.cl-2{
+	background: rgb(1,199,47);
+background: linear-gradient(303deg, rgba(1,199,47,1) 0%, rgba(0,241,255,1) 100%, rgba(0,212,255,1) 100%);
+	float:left;
+	width: 46%;
+	height: 300px;
+	padding: 150px 20px 0px 20px;
+	font-size: 2vw;
+}
+.bn5-row1 h3{
+	font-size: 1.5vw;
+}
+.banner6{
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.item{
+	text-align: center;
+	background-color: antiquewhite;
+	border: 1px solid ;
+	
+}
+.item1{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	background-image: url("../hình ảnh/wexor-tmg-L-2p8fapOA8-unsplash.jpg");
+	background-size:cover;
+	height: 500px;
+}
+.item3{
+	grid-row-start: 2;
+	grid-row-end: 4;
+	background-image: url("../hình ảnh/dominik-lange-BFsm5vldl2I-unsplash.jpg");
+	background-size:cover;
+}
+.item2{
+	grid-row-start: 2;
+	grid-row-end:4 ;
+	background-image: url("../hình ảnh/alejandro-contreras-wTPp323zAEw-unsplash.jpg");
+	background-size:cover;
+	height: 700px;
+}
+.item4{
+	background-image: url("../hình ảnh/charles-jackson-per0DXL6_fI-unsplash.jpg");
+	background-size:cover;
+	height: 500px;
+	
+}
+.item5{
+	background-image: url("../hình ảnh/bengal-tiger-wallpaper.jpg");
+	background-size:cover;
+}
+.item6{
+	background-image: url("../hình ảnh/max-williamson-J-3ZxEzKr9w-unsplash.jpg");
+	background-size:cover;
+}
+.banner6 button{
+	color: red;
+	width: 30%;
+	background-color: lightblue;
+	padding: 10px;
+	opacity: 0.4;
+	font-size: 1.5vw;
+}
+.banner6 button:hover{
+	opacity: 1;
+	background-color: rgb(1,199,47);
+background: linear-gradient(303deg, rgba(1,199,47,1) 0%, rgba(0,241,255,1) 100%, rgba(0,212,255,1) 100%);
+	color: black;
+	
+}
+.sub-banner6{
+	text-align: center;
+	margin-top: 80px;
+	font-size: 2vw;
+}
+.banner7{
+	height: 400px;
+}
+.video{
+	width: 70%;
+	padding: 30px 0px 0px 250px;
+	z-index: 8;
+}
+.bn7-noidung h1{
+	text-align: center;
+	font-size: 3vw;
+	padding-top: 80px;
+}
+.button-vid{
+	margin: -150px 0px 0px 350px;
+	padding: 40px;
+	font-size: 2vw;
+	color: black;
+	background-color: aqua;
+	z-index: 4;
+	position: absolute;
+	opacity: 0.4;
+	
+}
+.button-vid:hover{
+	opacity: 1;
+	color: green;
+	background-color: rgb(1,199,47);
+background: linear-gradient(303deg, rgba(1,199,47,1) 0%, rgba(0,241,255,1) 100%, rgba(0,212,255,1) 100%);
+	
+}
+.vid{
+	position: relative;
+}
+.banner8{
+	margin-top: 600px;
+	background-image: url("../hình ảnh/silas-baisch-K785Da4A_JA-unsplash.jpg");
+	height: 1000px;
+	background-size: cover;
+}
+.banner8 h2{
+	text-align: center;
+	font-size: 4vw;
+	color: white;
+	padding-top: 100px;	
+}
+.bn8-grid{
+	display: grid;
+	grid-template-columns: auto auto;
+	text-align: center;
+}
+.bn8-item1{
+	margin-top: 80px;
+	padding: 20px 0 0 50px;
+	background: #2EED10;
+	opacity: 0.6
+}
+.bn8-item1 img{
+	float: left;
+	margin: 20px 0 30px 100px
+}
+.bn8-item1 h1{
+	padding: 40px 80px 0px 0px;
+	font-size: 3vw;
+}
+.bn8-item2{
+	margin-top: 80px;
+	padding: 20px 0 0 50px;
+	background: #2EED10;
+	opacity: 0.6
+	
+}
+.bn8-item2 img{
+	float: left;
+	margin: 20px 0 30px 100px
+}
+.bn8-item2 h1{
+	padding: 10px 80px 0px 0px;
+	font-size: 3vw;
+}
+.bn8-item3{
+	margin-top: 80px;
+	padding: 20px 0 0 50px;
+	background: #2EED10;
+	opacity: 0.6
+	
+}
+.bn8-item3 img{
+	float: left;
+	margin: 20px 0 30px 100px
+}
+.bn8-item3 h1{
+	padding: 10px 80px 0px 0px;
+	font-size: 3vw;
+}
+.bn8-item4{
+	margin-top: 80px;
+	padding: 20px 0 0 50px;
+	background: #2EED10;
+	opacity: 0.6
+	
+}
+.bn8-item4 img{
+	float: left;
+	margin: 20px 0px 30px 100px
+}
+.bn8-item4 h1{
+	padding: 40px 80px 0px 0px;
+	font-size: 3vw;
+}
+
+.footer{
+	height: 8vw;
+	background: rgb(1,199,47);
+background: linear-gradient(303deg, rgba(1,199,47,1) 0%, rgba(0,241,255,1) 100%, rgba(0,212,255,1) 100%);
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	text-align: center;
+	font-size: 1vw;
+	padding-top: 30px;
+}
+.ft-1{
+	
+}
+.ft-2{
+	
+}
+.ft-3{
+	
+}
+.ft-4{
+	font-size: 2.5vw;
+	line-height: 3.5vw;
+	
+}
+.fb{
+	color: blue;
+}
+.in{
+	color:palevioletred;
+}
+.tw{
+	color:cyan;
+}
+.yo{
+	color:red;
+}
+.copy{
+	text-align: center;
+	font-size: 1.5vw;
+	background: rgb(1,199,47);
+background: linear-gradient(303deg, rgba(1,199,47,1) 0%, rgba(0,241,255,1) 100%, rgba(0,212,255,1) 100%);
+}
